@@ -1,5 +1,5 @@
 * Create SQL Instance with Failover Instance
-* Deploy the cloudsql-ping service
+* Deploy the cloudsql-ping service after editing [INSTANCE_CONNECTION_NAME](https://github.com/hienle-hps/cloudsql-ping/blob/master/src/main/java/com/example/appengine/java8/HelloAppEngine.java#L21)
   ```
   gradle appengineDeploy
   ```
